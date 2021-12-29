@@ -24,10 +24,11 @@ Usage:
 - Whether you want the resulting file to be also converted to an MKV (smaller file size and more modern format - quality should be similar)
 
 Tested with:<br/>
-Tiger On The Beat 2<br/>
-VCD 1362 (Universe Laser & Video Co,.Ltd.)<br/>
-Right audio channel (Cantonese)<br/>
 
+<table>
+  <th><td>Title</td><td>Cat. No</td><td>Publish</td><td>Channel</td><td>Works?</td></th>
+  <tr><td>Tiger On The Beat 2</td><td>VCD 1362</td><td>Universe Laser & Video Co,.Ltd.</td><td>Right / Cantonese</td><td>Yes</td></tr>
+</table>
 
 If the script fails to run, you may need to run the following in Powershell first:<br/>
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
