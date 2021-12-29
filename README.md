@@ -28,6 +28,7 @@ Tested with:<br/>
 <table>
   <tr><th>Title</th><th>Cat. No</th><th>Publish</th><th>Channel</th><th>Works?</th></tr>
   <tr><td>Tiger On The Beat 2</td><td>VCD 1362</td><td>Universe Laser & Video Co,.Ltd.</td><td>Right / Cantonese</td><td>Yes</td></tr>
+  <tr><td>Winner Takes All</td><td>VCD 7203</td><td>DELTAMAC</td><td>Left / Cantonese</td><td>Yes</td></tr>
 </table>
 
 If the script fails to run, you may need to run the following in Powershell first:<br/>
