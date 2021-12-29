@@ -23,12 +23,13 @@ Usage:
 - Which drive letter your CD/DVD/Blu-Ray drive is
 - Whether you want the resulting file to be also converted to an MKV (smaller file size and more modern format - quality should be similar)
 
-Tested with:
-Tiger On The Beat 2 VCD 1362 (Universe Laser & Video Co,.Ltd.)
-Right audio channel (Cantonese)
+Tested with:<br/>
+Tiger On The Beat 2<br/>
+VCD 1362 (Universe Laser & Video Co,.Ltd.)<br/>
+Right audio channel (Cantonese)<br/>
 
 
-If the script fails to run, you may need to run the following in Powershell first:
+If the script fails to run, you may need to run the following in Powershell first:<br/>
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
 
