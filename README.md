@@ -24,17 +24,27 @@ Usage:
 - Whether you want the resulting file to be also converted to an MKV (smaller file size and more modern format - quality should be similar)
 
 Tested with:<br/>
-Tiger On The Beat 2<br/>
-VCD 1362 (Universe Laser & Video Co,.Ltd.)<br/>
-Right audio channel (Cantonese)<br/>
 
+<table>
+  <tr><th>Title</th><th>Cat. No</th><th>Publish</th><th>Channel</th><th>Works?</th></tr>
+  <tr><td>Tiger On The Beat 2</td><td>VCD 1362</td><td>Universe Laser & Video Co,.Ltd.</td><td>Right / Cantonese</td><td>Yes</td></tr>
+  <tr><td>Winner Takes All</td><td>VCD 7203</td><td>DELTAMAC</td><td>Left / Cantonese</td><td>Yes</td></tr>
+</table>
 
 If the script fails to run, you may need to run the following in Powershell first:<br/>
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
+If you see one of the following errors:
+- Non-monotonous DTS in output stream
+- Warning MVs not available
+- Queue input is backward in time
+- buffer underflow
+
+This seems to point to non-compliant MPEG1/VCD streams, but the file output may well be fine. Check the output to be satisfied yourself.
+
 
 Future improvements or known problems:
-- ffmpeg has trouble with Deltamac discs. But this should work OK with most Universe Laser ones
+- Doesn't eject disc 1 automatically
 - When putting the second disc in, the interface isn't very forgiving so make sure the drive is ready
 
 
