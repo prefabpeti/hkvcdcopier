@@ -34,9 +34,17 @@ Tested with:<br/>
 If the script fails to run, you may need to run the following in Powershell first:<br/>
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
+If you see one of the following errors:
+- Non-monotonous DTS in output stream
+- Warning MVs not available
+- Queue input is backward in time
+- buffer underflow
+
+This seems to point to non-compliant MPEG1/VCD streams, but the file output may well be fine. Check the output to be satisfied yourself.
+
 
 Future improvements or known problems:
-- ffmpeg has trouble with Deltamac discs. But this should work OK with most Universe Laser ones
+- Doesn't eject disc 1 automatically
 - When putting the second disc in, the interface isn't very forgiving so make sure the drive is ready
 
 
