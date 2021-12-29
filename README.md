@@ -26,7 +26,7 @@ Usage:
 Tested with:<br/>
 
 <table>
-  <th><td>Title</td><td>Cat. No</td><td>Publish</td><td>Channel</td><td>Works?</td></th>
+  <tr><th>Title</th><th>Cat. No</th><th>Publish</th><th>Channel</th><th>Works?</th></tr>
   <tr><td>Tiger On The Beat 2</td><td>VCD 1362</td><td>Universe Laser & Video Co,.Ltd.</td><td>Right / Cantonese</td><td>Yes</td></tr>
 </table>
 
