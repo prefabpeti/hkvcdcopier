@@ -1,6 +1,7 @@
 $tempdir ="$env:TEMP\"
 $tempguid = New-Guid
 $tempdir = $tempdir + $tempguid
+$driveeject = New-Object -comObject Shell.Application
 
 $title = ''
 $audiochannel = 'r'
@@ -70,6 +71,8 @@ for ($num = 1; $num -le $noofdiscs; $num++){
 	Write-Host $_.FullName
 	Copy-Item $_.FullName -Destination $tmpnewdir
 	}
+	$tmpdriveletterfull = $cddrive.ToUpper() + ":"
+	$driveeject.Namespace(17).ParseName($tmpdriveletterfull).InvokeVerb("Eject")
 }
 
 for ($num = 1; $num -le $noofdiscs; $num++){
