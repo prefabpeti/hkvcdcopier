@@ -26,9 +26,14 @@ Usage:
 Tested with:<br/>
 
 <table>
-  <tr><th>Title</th><th>Cat. No</th><th>Publish</th><th>Channel</th><th>Works?</th></tr>
-  <tr><td>Tiger On The Beat 2</td><td>VCD 1362</td><td>Universe Laser & Video Co,.Ltd.</td><td>Right / Cantonese</td><td>Yes</td></tr>
-  <tr><td>Winner Takes All</td><td>VCD 7203</td><td>DELTAMAC</td><td>Left / Cantonese</td><td>Yes</td></tr>
+  <tr><th>Title</th><th>Cat. No</th><th>Publish</th><th>Works?</th></tr>
+  <tr><td>Tiger On The Beat 2</td><td>VCD 1362</td><td>Universe Laser & Video Co,.Ltd.</td><td>Yes</td></tr>
+  <tr><td>Winner Takes All</td><td>VCD 7203</td><td>DELTAMAC</td><td>Yes</td></tr>
+  
+  <tr><td>The God of Cookery</td><td>VCD 1485</td><td>Universe Laser & Video Co,.Ltd.</td><td>Yes</td></tr>
+  <tr><td>Thunderbolt</td><td>VCD213</td><td>Mei Ah Laser Disc., Ltd.</td><td>Yes</td></tr>
+  <tr><td>Banana Spirit</td><td>VCD 1442</td><td>Universe Laser & Video Co,.Ltd.</td><td>Yes</td></tr>
+  <tr><td>My Flying Wife</td><td>VCD296</td><td>Mei Ah Laser Disc., Ltd.</td><td>Yes</td></tr>
 </table>
 
 If the script fails to run, you may need to run the following in Powershell first:<br/>
@@ -44,7 +49,6 @@ This seems to point to non-compliant MPEG1/VCD streams, but the file output may 
 
 
 Future improvements or known problems:
-- Doesn't eject disc 1 automatically
 - When putting the second disc in, the interface isn't very forgiving so make sure the drive is ready
 
 
